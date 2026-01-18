@@ -46,3 +46,4 @@ Install dependencies:
 
 ```bash
 pip install aiohttp rich
+<img width="784" height="837" alt="img1" src="https://github.com/user-attachments/assets/fb23c9b4-e76e-40c6-b1b2-e925c9e53737" />
