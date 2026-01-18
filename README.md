@@ -33,7 +33,7 @@ Includes (not exhaustive):
 Twitter / X · Instagram · TikTok · GitHub · Reddit · YouTube · Twitch · Steam · LinkedIn · Telegram · Mastodon · Bluesky · Hacker News · SoundCloud · Vimeo · Substack · Pornhub · OnlyFans · Fansly · Roblox · Discord (limited)
 
 Full list is defined in **sites.json** and can be easily extended.
-
+<img width="784" height="837" alt="img1" src="https://github.com/user-attachments/assets/d3b60542-e1e7-4732-b0c7-eeceb9ff720b" />
 ---
 
 ## Requirements
@@ -46,4 +46,4 @@ Install dependencies:
 
 ```bash
 pip install aiohttp rich
-<img width="784" height="837" alt="img1" src="https://github.com/user-attachments/assets/fb23c9b4-e76e-40c6-b1b2-e925c9e53737" />
+
