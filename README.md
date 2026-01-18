@@ -153,7 +153,7 @@ More profile data extraction
 
 ## 📜 License
 
-MIT License © 2026 NightShift Gorilla 🦍
+MIT License © 2026 Deathbringer98
 
 Built with ❤️ for the OSINT community.
 Stay curious. Stay ethical.
