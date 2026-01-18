@@ -1,0 +1,194 @@
+{
+  "Twitter/X": {
+    "url": "https://x.com/{}",
+    "method": "GET",
+    "not_found_regex": "(account suspended|this account doesn’t exist|something went wrong)"
+  },
+  "Instagram": {
+    "url": "https://www.instagram.com/{}/",
+    "method": "GET",
+    "not_found_regex": "(page not found|sorry this page isn’t available)"
+  },
+  "TikTok": {
+    "url": "https://www.tiktok.com/@{}",
+    "method": "GET",
+    "not_found_regex": "(couldn’t find this account|page not found)"
+  },
+  "YouTube": {
+    "url": "https://www.youtube.com/@{}",
+    "method": "GET",
+    "not_found_regex": "(this channel does not exist|page isn’t available)"
+  },
+  "Twitch": {
+    "url": "https://www.twitch.tv/{}",
+    "method": "GET",
+    "not_found_regex": "(sorry.*that channel does not exist|page not found)"
+  },
+  "Kick": {
+    "url": "https://kick.com/{}",
+    "method": "GET",
+    "not_found_regex": "(channel not found|this page could not be found)"
+  },
+  "OnlyFans": {
+    "url": "https://onlyfans.com/{}",
+    "method": "GET",
+    "not_found_regex": "(profile not found|page not found)"
+  },
+  "Fansly": {
+    "url": "https://fansly.com/{}",
+    "method": "GET",
+    "not_found_regex": "(user not found|page not found)"
+  },
+  "Pornhub": {
+    "url": "https://www.pornhub.com/model/{}",
+    "method": "GET",
+    "not_found_regex": "(page not found|model not found)"
+  },
+  "Chaturbate": {
+    "url": "https://chaturbate.com/{}",
+    "method": "GET",
+    "not_found_regex": "(page not found|user not found)"
+  },
+  "Facebook": {
+    "url": "https://www.facebook.com/{}",
+    "method": "GET",
+    "not_found_regex": "(page isn’t available|this content isn’t available)"
+  },
+  "LinkedIn": {
+    "url": "https://www.linkedin.com/in/{}",
+    "method": "HEAD"
+  },
+  "Snapchat": {
+    "url": "https://www.snapchat.com/add/{}",
+    "method": "GET",
+    "not_found_regex": "(no user found|page not found)"
+  },
+  "Reddit": {
+    "url": "https://www.reddit.com/user/{}",
+    "method": "HEAD"
+  },
+  "GitHub": {
+    "url": "https://github.com/{}",
+    "method": "HEAD"
+  },
+  "Pinterest": {
+    "url": "https://www.pinterest.com/{}/",
+    "method": "HEAD"
+  },
+  "Patreon": {
+    "url": "https://www.patreon.com/{}",
+    "method": "HEAD"
+  },
+  "SoundCloud": {
+    "url": "https://soundcloud.com/{}",
+    "method": "HEAD"
+  },
+  "DeviantArt": {
+    "url": "https://www.deviantart.com/{}",
+    "method": "HEAD"
+  },
+  "Behance": {
+    "url": "https://www.behance.net/{}",
+    "method": "HEAD"
+  },
+  "Dribbble": {
+    "url": "https://dribbble.com/{}",
+    "method": "HEAD"
+  },
+  "Medium": {
+    "url": "https://medium.com/@{}",
+    "method": "HEAD"
+  },
+  "Roblox": {
+    "url": "https://www.roblox.com/users/search?keyword={}",
+    "method": "GET",
+    "not_found_regex": "(no results|user not found)"
+  },
+  "Steam": {
+    "url": "https://steamcommunity.com/id/{}",
+    "method": "HEAD"
+  },
+  "Discord": {
+    "url": "https://discord.com/users/{}",
+    "method": "HEAD",
+    "note": "Requires numeric user ID, not username – may not work reliably"
+  },
+  "Letterboxd": {
+    "url": "https://letterboxd.com/{}",
+    "method": "HEAD"
+  },
+  "HackerNews": {
+    "url": "https://news.ycombinator.com/user?id={}",
+    "method": "GET",
+    "not_found_regex": "(no such user)"
+  },
+  "Keybase": {
+    "url": "https://keybase.io/{}",
+    "method": "HEAD"
+  },
+  "Minecraft (NameMC)": {
+    "url": "https://namemc.com/profile/{}",
+    "method": "GET",
+    "not_found_regex": "(profile not found)"
+  },
+  "Threads": {
+    "url": "https://www.threads.net/@{}",
+    "method": "GET",
+    "not_found_regex": "(page not found)"
+  },
+  "Bluesky": {
+    "url": "https://bsky.app/profile/{}",
+    "method": "GET",
+    "not_found_regex": "(profile not found)"
+  },
+  "Mastodon": {
+    "url": "https://mastodon.social/@{}",
+    "method": "GET",
+    "not_found_regex": "(page not found)"
+  },
+  "Telegram": {
+    "url": "https://t.me/{}",
+    "method": "GET",
+    "not_found_regex": "(channel not found)"
+  },
+  "WhatsApp": {
+    "url": "https://wa.me/{}",
+    "method": "HEAD",
+    "note": "Requires phone number, not username"
+  },
+  "Vimeo": {
+    "url": "https://vimeo.com/{}",
+    "method": "HEAD"
+  },
+  "Rumble": {
+    "url": "https://rumble.com/c/{}",
+    "method": "GET",
+    "not_found_regex": "(channel not found)"
+  },
+  "Substack": {
+    "url": "https://{}.substack.com",
+    "method": "GET",
+    "not_found_regex": "(page not found)"
+  },
+  "Spotify": {
+    "url": "https://open.spotify.com/user/{}",
+    "method": "HEAD"
+  },
+  "Tumblr": {
+    "url": "https://{}.tumblr.com",
+    "method": "HEAD"
+  },
+  "VK": {
+    "url": "https://vk.com/{}",
+    "method": "HEAD"
+  },
+  "Weibo": {
+    "url": "https://weibo.com/u/{}",
+    "method": "HEAD"
+  },
+  "Xiaohongshu": {
+    "url": "https://www.xiaohongshu.com/user/profile/{}",
+    "method": "GET",
+    "not_found_regex": "(user not found)"
+  }
+}
