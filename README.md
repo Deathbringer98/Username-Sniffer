@@ -156,4 +156,14 @@ More profile data extraction
 MIT License © 2026 Deathbringer98
 
 Built with ❤️ for the OSINT community.
+
+❤️ Support Development
+If this suite helps you, consider supporting ongoing development:
+
+PayPal Donations
+https://www.paypal.com/paypalme/MatthewLM?locale.x=en_US
+
+Your support helps expand this suite and maintain long-term updates.
+
+
 Stay curious. Stay ethical.
