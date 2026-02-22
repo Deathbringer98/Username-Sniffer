@@ -51,10 +51,6 @@ Built for **OSINT investigators**, **red teamers**, **threat hunters**,
 - Steam  
 - Roblox  
 
-### Dev & Professional
-- GitHub  
-- Hacker News  
-
 ### Content & Adult
 - SoundCloud  
 - Vimeo  
